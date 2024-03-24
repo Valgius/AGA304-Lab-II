@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32708 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16322 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.3.19f1\Editor\Unity.exe
+D:\Other\Unity\Unity Hub\2022.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/jskinner2/Documents/GitHub/AGA304-Lab-II/Unity
+D:/Projects/GitHub/AGA304-Lab-II/AGA304-Lab-II/Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63716
-Successfully changed project path to: C:/Users/jskinner2/Documents/GitHub/AGA304-Lab-II/Unity
-C:/Users/jskinner2/Documents/GitHub/AGA304-Lab-II/Unity
+60568
+Successfully changed project path to: D:/Projects/GitHub/AGA304-Lab-II/AGA304-Lab-II/Unity
+D:/Projects/GitHub/AGA304-Lab-II/AGA304-Lab-II/Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/jskinner2/Documents/GitHub/AGA304-Lab-II/Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32980] Host "[IP] 10.105.150.84 [Port] 0 [Flags] 2 [Guid] 205550441 [EditorId] 205550441 [Version] 1048832 [Id] WindowsEditor(7,JMC-ULT-L113) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1660] Host "[IP] 192.168.8.123 [Port] 0 [Flags] 2 [Guid] 2690140388 [EditorId] 2690140388 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E35M486) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32980] Host "[IP] 10.105.150.84 [Port] 0 [Flags] 2 [Guid] 205550441 [EditorId] 205550441 [Version] 1048832 [Id] WindowsEditor(7,JMC-ULT-L113) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1660] Host "[IP] 192.168.8.123 [Port] 0 [Flags] 2 [Guid] 2690140388 [EditorId] 2690140388 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E35M486) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 8.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 19.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jskinner2/Documents/GitHub/AGA304-Lab-II/Unity/Assets
+[Subsystems] Discovering subsystems at path D:/Other/Unity/Unity Hub/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/GitHub/AGA304-Lab-II/AGA304-Lab-II/Unity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
-    VRAM:     5955 MB
-    Driver:   31.0.15.5123
+    VRAM:     6029 MB
+    Driver:   31.0.15.5186
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Mono path[0] = 'D:/Other/Unity/Unity Hub/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Other/Unity/Unity Hub/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Other/Unity/Unity Hub/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005453 seconds.
-- Loaded All Assemblies, in  0.315 seconds
+Register platform support module: D:/Other/Unity/Unity Hub/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.027572 seconds.
+- Loaded All Assemblies, in  0.555 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.252 seconds
-Domain Reload Profiling: 566ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 893ms
+	BeginReloadAssembly (182ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (96ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (176ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (110ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (167ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (253ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (345ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (199ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,1668 +115,56 @@ Domain Reload Profiling: 566ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.605 seconds
-Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.051 seconds
+Refreshing native plugins compatible for Editor in 8.00 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.550 seconds
-Domain Reload Profiling: 1152ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1795ms
+	BeginReloadAssembly (290ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (368ms)
-		LoadAssemblies (284ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (540ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (140ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (550ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (756ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (401ms)
+		SetupLoadedEditorAssemblies (566ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3606.
-Memory consumption went from 133.1 MB to 133.1 MB.
-Total: 2.618700 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.200500 ms MarkObjects: 2.098500 ms  DeleteObjects: 0.083300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 824070.469542 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(431db67bc60f05646aa5d956af410833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(431db67bc60f05646aa5d956af410833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a074a544ea2c3d86fb0de3bad6e54fe5') in 0.001903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Asset Scene.unity
-  artifactKey: Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Asset Scene.unity using Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aedfe2c0c8e61b7f507f75c6332ad21') in 0.000337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.534262 seconds.
-  path: Assets/Scenes/Asset Scene 1.unity
-  artifactKey: Guid(e3070674b33f4fb4aab425272dd96ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Asset Scene 1.unity using Guid(e3070674b33f4fb4aab425272dd96ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4268d0234ec1c3fd73f4988ca6ef7e') in 0.000419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 28.511725 seconds.
-  path: Assets/Scenes/Whitebox 20230311.unity
-  artifactKey: Guid(31795f305e45bba44b08889b98bfd971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Whitebox 20230311.unity using Guid(31795f305e45bba44b08889b98bfd971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f11cc41b299d3d3c46ee2cde8b7ae19') in 0.000535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.855736 seconds.
-  path: Assets/Scenes/Whitebox 20230318.unity
-  artifactKey: Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Whitebox 20230318.unity using Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd690c960491c61349e4af50d77cf11e7') in 0.000510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.973857 seconds.
-  path: Assets/Scenes/Whitebox 20230318 1.unity
-  artifactKey: Guid(2cac0b052d7a503489a674410f663316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Whitebox 20230318 1.unity using Guid(2cac0b052d7a503489a674410f663316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f33057640863c1db0209b9ba43b4e3') in 0.000409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 534.384652 seconds.
-  path: Assets/Models/Walls
-  artifactKey: Guid(a1b4bed0caed1254c893654d23ef4dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls using Guid(a1b4bed0caed1254c893654d23ef4dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428ce456b11b77088df199f185e8381c') in 0.000727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.370575 seconds.
-  path: Assets/Models
-  artifactKey: Guid(1b5380a786174c347ad0128280ee74c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(1b5380a786174c347ad0128280ee74c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7f3867293a54a143c9d9b9eec4b3b4') in 0.000428 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 197.553111 seconds.
-  path: Assets/Models/Walls/Wall_StandardWindow.mtl
-  artifactKey: Guid(20e76ee44901bbb42b82188727f8a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_StandardWindow.mtl using Guid(20e76ee44901bbb42b82188727f8a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a698775224a9dc7f69033d2b98fe16b') in 0.012329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.379866 seconds.
-  path: Assets/Models/Walls/Wall_Standard_Sml.mtl
-  artifactKey: Guid(4819463306ca5d44aa7ad70ee36c91ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_Standard_Sml.mtl using Guid(4819463306ca5d44aa7ad70ee36c91ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785837c604267666234d880d59fc1f13') in 0.000704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.652439 seconds.
-  path: Assets/Models/Walls/Wall_Standard_Sml.obj
-  artifactKey: Guid(2d01ce06db688a5448021ac403d17efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_Standard_Sml.obj using Guid(2d01ce06db688a5448021ac403d17efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ef232f87ad36e5e510175e4cf6632c') in 0.122730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 188.698157 seconds.
-  path: Assets/Models/Walls/Wall_HighDistortion_L1.obj
-  artifactKey: Guid(effdb2f9d4cb77548a643a9a1cc6b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_HighDistortion_L1.obj using Guid(effdb2f9d4cb77548a643a9a1cc6b95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5919b7ec582315ec6b9c459633504ae4') in 0.023573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 12.652066 seconds.
-  path: Assets/Models/Walls/Wall_StandardWindow.obj
-  artifactKey: Guid(cabbb04968f3713409eb2aad0a7380ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_StandardWindow.obj using Guid(cabbb04968f3713409eb2aad0a7380ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15550e25ca735189cf7bd4a3c6bcdbc2') in 0.020213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.156302 seconds.
-  path: Assets/Models/Walls/Wall_SlightDistortion_L2.obj
-  artifactKey: Guid(786a63692fed5504ab727535958a71db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_SlightDistortion_L2.obj using Guid(786a63692fed5504ab727535958a71db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b75033256210bde41c5182c878523a5') in 0.019232 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 14.332765 seconds.
-  path: Assets/Prefabs/Walls/InsideCorner_Standard.prefab
-  artifactKey: Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/InsideCorner_Standard.prefab using Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b8d443caee11ad4a309bae40962111') in 0.001486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 16.251235 seconds.
-  path: Assets/Prefabs/Alcove/AlcoveEntrance.obj
-  artifactKey: Guid(72c6b62add5dcd04bb43d1f4c8ad706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Alcove/AlcoveEntrance.obj using Guid(72c6b62add5dcd04bb43d1f4c8ad706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0f08919507e2a147033a7c68ec183e') in 0.037514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 1.839660 seconds.
-  path: Assets/Models/Walls/Wall_OutsideCorner.obj
-  artifactKey: Guid(dbf4088c25d5e6b4cb4c2aada6c71122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_OutsideCorner.obj using Guid(dbf4088c25d5e6b4cb4c2aada6c71122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d9f73cd6b4f61b47bbeeed4298d329') in 0.014401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.806321 seconds.
-  path: Assets/Models/Walls/Wall_HighDistortion_L2.obj
-  artifactKey: Guid(28e8d767d8e5b6f44a07c0abd825254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_HighDistortion_L2.obj using Guid(28e8d767d8e5b6f44a07c0abd825254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b8c24c3dca358ba034a44e2b961a79') in 0.018530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.039358 seconds.
-  path: Assets/Models/Walls/Wall_HighDistortion_R1.obj
-  artifactKey: Guid(66ad2df0c3e60cf48a85eb8d9c1feb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_HighDistortion_R1.obj using Guid(66ad2df0c3e60cf48a85eb8d9c1feb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b8d0dcb823b815b19eb5b43643313a') in 0.014913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.032723 seconds.
-  path: Assets/Models/Walls/Wall_HighDistortion_SmlStraight_L.obj
-  artifactKey: Guid(2f1406d10ed3a1d4e8cbb8a2df68123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_HighDistortion_SmlStraight_L.obj using Guid(2f1406d10ed3a1d4e8cbb8a2df68123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd540d798d7317532eb1d1c41d39d129') in 0.013826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.050035 seconds.
-  path: Assets/Models/Walls/Wall_HighDistortion_SmlWave_LR.obj
-  artifactKey: Guid(65165a3149d53304fab874f60a779650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_HighDistortion_SmlWave_LR.obj using Guid(65165a3149d53304fab874f60a779650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865352baafab199df77779399eded890') in 0.014531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.046089 seconds.
-  path: Assets/Models/Walls/Wall_InsideCorner.obj
-  artifactKey: Guid(1a30d05958e49df4f926324472984ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_InsideCorner.obj using Guid(1a30d05958e49df4f926324472984ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e29e10714e584e4d369b0b344bc230b') in 0.032817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.160925 seconds.
-  path: Assets/Models/Walls/Wall_MidDistortion_L2.obj
-  artifactKey: Guid(0717accac21c2564aaba05400b201a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_MidDistortion_L2.obj using Guid(0717accac21c2564aaba05400b201a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77d05b4d26c12f0743f59a9c94c8ad7') in 0.014796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.075946 seconds.
-  path: Assets/Models/Walls/Wall_MidDistortion_R2.obj
-  artifactKey: Guid(d360ffc74791aa2409287917bd2791f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_MidDistortion_R2.obj using Guid(d360ffc74791aa2409287917bd2791f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f016ee276df2004d2744f223a71d19ef') in 0.017111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.091396 seconds.
-  path: Assets/Models/Walls/Wall_MidDistortion_SmlWave.obj
-  artifactKey: Guid(1ff8e6526bb78f545bbf106e37ee4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_MidDistortion_SmlWave.obj using Guid(1ff8e6526bb78f545bbf106e37ee4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366095a059cc273ad8934bc2b27735bb') in 0.016543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.134520 seconds.
-  path: Assets/Models/Walls/Wall_SlightDistortion_R1.obj
-  artifactKey: Guid(316c26e60395a7248b500877d440b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_SlightDistortion_R1.obj using Guid(316c26e60395a7248b500877d440b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5179882432e234d58a38f416084ef83e') in 0.016012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.039746 seconds.
-  path: Assets/Models/Walls/Wall_SlightDistortion_R2.obj
-  artifactKey: Guid(6f0418bf6dfc51742b9e766619191d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_SlightDistortion_R2.obj using Guid(6f0418bf6dfc51742b9e766619191d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d5b7469776c32b5ff91a1eda8e9783') in 0.017752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.469881 seconds.
-  path: Assets/Models/Walls/Wall_SlightDistortion_SmlWave.obj
-  artifactKey: Guid(a46ad8a3c375eb64a988a512f0ede340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_SlightDistortion_SmlWave.obj using Guid(a46ad8a3c375eb64a988a512f0ede340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcc66248c380f1ab775d164c2ef35d2') in 0.016182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.079382 seconds.
-  path: Assets/Models/Walls/Wall_Standard.obj
-  artifactKey: Guid(03b0c05396fa70b419f1e6b8d19001ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Walls/Wall_Standard.obj using Guid(03b0c05396fa70b419f1e6b8d19001ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea2235f4d83f946d9978f9c2b52a251') in 0.023517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 11.775492 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
-  artifactKey: Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd406edeef36e4ce033bf9aea19097d') in 0.001984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 12.962102 seconds.
-  path: Assets/Prefabs/Walls/InsideCorner_Standard.prefab
-  artifactKey: Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/InsideCorner_Standard.prefab using Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e0fd1dbf5195c3bae1cca7802dfbdc') in 0.005922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 17.094898 seconds.
-  path: Assets/Prefabs/Walls
-  artifactKey: Guid(c0261c98dc343534798c88031a885752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls using Guid(c0261c98dc343534798c88031a885752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4515204514dba8e5ed1f2ccfd547ab0b') in 0.000510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.786278 seconds.
-  path: Assets/Prefabs/Alcove
-  artifactKey: Guid(16694873730a775489db68dc8c707c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Alcove using Guid(16694873730a775489db68dc8c707c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5549ab1b9cd73a98e1532c97973b8b10') in 0.000349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 71.002319 seconds.
-  path: Assets/Prefabs/Walls/OutsideCorner_Standard.prefab
-  artifactKey: Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/OutsideCorner_Standard.prefab using Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eea41f0615311804fe9ed2df6664b41') in 0.002117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.584606 seconds.
-  path: Assets/Prefabs/Walls/TSection_Standard1.prefab
-  artifactKey: Guid(2e171d4292f53054bb56fc1290728d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/TSection_Standard1.prefab using Guid(2e171d4292f53054bb56fc1290728d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575b54f82c45745b5e428c0fb81bfe91') in 0.001845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.433446 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ac3aecac44803cac4fe83b8420f090') in 0.001289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 40.148706 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdea38916f1ab84ce88b472984fcbe4c') in 0.007558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 7.766379 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
-  artifactKey: Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982f66278baef07135003f6965e54779') in 0.005603 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.246577 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791ce6eca207e175c2e7fede9ddfeed6') in 0.001917 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 14.201096 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026ca44e39dd868558d230992177f4a9') in 0.005110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 9.851651 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e6c97e8e2e4334bdfc933ad14c0088') in 0.001446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 19.118463 seconds.
-  path: Assets/Prefabs/Pillars
-  artifactKey: Guid(5c35c69bf833aeb449c789e29acb5c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pillars using Guid(5c35c69bf833aeb449c789e29acb5c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6fc8a559bb9bd908a43624449d90d1') in 0.000498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 81.783198 seconds.
-  path: Assets/Prefabs/Walls/InsideCorner_Standard.prefab
-  artifactKey: Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/InsideCorner_Standard.prefab using Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7077741336c61e33e9545b35eff541') in 0.007292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 3.138263 seconds.
-  path: Assets/Prefabs/Walls/OutsideCorner_Standard.prefab
-  artifactKey: Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/OutsideCorner_Standard.prefab using Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927fc6141b770f130a4085a79df4b1b7') in 0.005938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 13.457482 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
-  artifactKey: Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e4a8fe6b0e020e261e4a6f58bba997') in 0.006120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.059663 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab397bdc465a8ff67a00491171531e8') in 0.005775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 8.673073 seconds.
-  path: Assets/Prefabs/Walls/InsideCorner_Standard.prefab
-  artifactKey: Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/InsideCorner_Standard.prefab using Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9608f614f31708bee48f21914bd6c6bc') in 0.005238 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 10.833692 seconds.
-  path: Assets/Prefabs/Walls/OutsideCorner_Standard.prefab
-  artifactKey: Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/OutsideCorner_Standard.prefab using Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e879483ef89ba0f2d066b88d16d28') in 0.006184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 13.076323 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
-  artifactKey: Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(4034303d9604d24468db011c7f215587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6f2a2fae9f5f2c95fa00463cbb2149') in 0.005924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 9.185488 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9198acdb0dc8cf5757ec15791b98aab') in 0.005337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.562086 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61492c733da5f35ba87c2973d97adc5a') in 0.006380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 10.093444 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51418f5c495e94cbedd7cc051e815f07') in 0.004068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.267272 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab
-  artifactKey: Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab using Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc06ec43b213a07fde20df4a2539aa70') in 0.002209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 6.259678 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab
-  artifactKey: Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab using Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef487a482bed43bde9a24b959220929') in 0.001457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 18.818118 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03fc8edefac94d7204abfebcce1084') in 0.001400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.766234 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5c982f89cbadaa73135da7e142c0ca') in 0.001665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.261624 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddb4ef8fe71c17bcebe4753c3171054') in 0.001370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 10.361645 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0389901340fa7f45096485a813f33d') in 0.001372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 55.240611 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_Sml_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b89c73718680cc22f1b18bb7928657') in 0.005902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 13.841129 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_Sml_R_Wall_HighDistorition.prefab
-  artifactKey: Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_Sml_R_Wall_HighDistorition.prefab using Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f482066cc021b9d0c4401871eb1406d0') in 0.001505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 49.407589 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2092f9c04e68e28f8c01ea4516bc720b') in 0.005510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.153709 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab
-  artifactKey: Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab using Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8057aaa990321ad8955b26bb931d0374') in 0.001400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 25.733337 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7adee443ed59d846a25a3f10678b04') in 0.006128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 20.388234 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab
-  artifactKey: Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab using Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c37a31d6544de03d69f47ff99804f1') in 0.006032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.112292 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab
-  artifactKey: Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab using Guid(947042b65744284488ffd0acfc30b976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ef7b77c63041dd2d4b46ce1cfbcc41') in 0.007601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 124.859581 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab
-  artifactKey: Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab using Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c075aebe44464b072919781974c1bce') in 0.007613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 23.773465 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab
-  artifactKey: Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab using Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10054298449b505e25a99e1fc02938b') in 0.008044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 24.849924 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6dff2a9cee3f60b05fac604e7309c') in 0.006172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.075220 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab
-  artifactKey: Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab using Guid(93f305c53bb66f74a889e75bd089cab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d2cb5b0bfc99ad1283c5e028627d8d') in 0.006639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 167.922405 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition 1.prefab
-  artifactKey: Guid(98ac3b3128620414797477134c31f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition 1.prefab using Guid(98ac3b3128620414797477134c31f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb572f5d7ef9b3061fb634ed53a4b9b9') in 0.007950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 21.895430 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
-  artifactKey: Guid(98ac3b3128620414797477134c31f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(98ac3b3128620414797477134c31f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb1f3dac5a75f26b4239bb1bd1b3949') in 0.006596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 215.870642 seconds.
-  path: Assets/Prefabs/Walls/OutsideCorner_Standard.prefab
-  artifactKey: Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/OutsideCorner_Standard.prefab using Guid(4b8ebbd61dcb44d4bbdd6a2367a12c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5030c0cb96a233ae1550d7f6ac409693') in 0.007131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 14.920352 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
-  artifactKey: Guid(98ac3b3128620414797477134c31f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(98ac3b3128620414797477134c31f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88acc9fbb3ccf6fdfbed1f36c4deb664') in 0.005853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.716930 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(824a64f6eb12df3439fc1ea1280b792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9482297cef5e3e42baf67068fa46e904') in 0.007045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 124.533185 seconds.
-  path: Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab
-  artifactKey: Guid(6bacecc4f3df9584198879c73a6b6c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab using Guid(6bacecc4f3df9584198879c73a6b6c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2314966962a8f29c6df5fd6067bb041d') in 0.015735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 3.214390 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(8c80b7523a493924aa9bcb6c0a3a4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee6127f613a5c688b42e9de7f6a6382') in 0.008684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(7c3e917ac2cec794e8212063ac32cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f017f4cf02dfe45ef3627dbd8c10f3') in 0.008673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 38.386091 seconds.
-  path: Assets/Scenes/Whitebox 20230318.unity
-  artifactKey: Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Whitebox 20230318.unity using Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de20d6bfacfe49453ad499932a9971a') in 0.000614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 73.718653 seconds.
-  path: Assets/Scenes/Asset Scene.unity
-  artifactKey: Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Asset Scene.unity using Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccec4c0d0afddfab8c853b6793a46b3') in 0.000430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2190.600950 seconds.
-  path: Assets/Prefabs/Walls/Wall_StandardWindow.prefab
-  artifactKey: Guid(2b2f8d89303d02149a6c328bd248c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_StandardWindow.prefab using Guid(2b2f8d89303d02149a6c328bd248c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f35dad4bf6152f3d7545aa2db9b355b') in 0.003304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 4.731028 seconds.
-  path: Assets/Prefabs/Walls/Wall_StandardWindow.prefab
-  artifactKey: Guid(2b2f8d89303d02149a6c328bd248c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_StandardWindow.prefab using Guid(2b2f8d89303d02149a6c328bd248c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e52a6099508f9d280759aea0cca1bf') in 0.001493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 5.001116 seconds.
-  path: Assets/Prefabs/Walls/Wall_StandardWindow.prefab
-  artifactKey: Guid(2b2f8d89303d02149a6c328bd248c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_StandardWindow.prefab using Guid(2b2f8d89303d02149a6c328bd248c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54c1f0e38a13e5d707e547bdeccd100') in 0.006805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 42.653276 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard 1.prefab
-  artifactKey: Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard 1.prefab using Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb1005485b106a102e5a4f52d418506') in 0.005902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 10.944906 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition 1.prefab
-  artifactKey: Guid(4bb00931d5b906a428d26371d997d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition 1.prefab using Guid(4bb00931d5b906a428d26371d997d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a803e2fb860288c152aaf328ec76dadc') in 0.006315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 15.712833 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition 1.prefab
-  artifactKey: Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition 1.prefab using Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1169b0a71eb02bc4595bcc8ee04556b') in 0.006424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 17.408674 seconds.
-  path: Assets/Prefabs/Walls/OutsideCorner_Standard 1.prefab
-  artifactKey: Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/OutsideCorner_Standard 1.prefab using Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d8ad01fe88bd8d6e62c423b2f11722') in 0.006461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 9.747958 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition 1.prefab
-  artifactKey: Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition 1.prefab using Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b26dad226bf99caf53629581ab981a1') in 0.007537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 6.632390 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d7a9cead25ab88f23b4bb797897e21') in 0.006990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 9.520617 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1c0918c51880907db4bdf32f0e664a') in 0.008414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.719095 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition 1.prefab
-  artifactKey: Guid(89eae9e3e2d76e641affd116021b4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition 1.prefab using Guid(89eae9e3e2d76e641affd116021b4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f645eac0a829ea46cf784a5c71023b07') in 0.007908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 3.781681 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition 1.prefab
-  artifactKey: Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition 1.prefab using Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9ef30a1bbe33d42e58420b8ed31580') in 0.006553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 6.996472 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c35ca46283e7ff7ffef727960f2cf6') in 0.007434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.029124 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition 1.prefab
-  artifactKey: Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition 1.prefab using Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca11bc3fbf8c2d56b53dd2a80559062e') in 0.006162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 8.289183 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition 1.prefab
-  artifactKey: Guid(05e45b4aaf890194ba8136e9924630fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition 1.prefab using Guid(05e45b4aaf890194ba8136e9924630fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12da2da9fbe3250629da0103080c7b7') in 0.006273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 3.394334 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition.prefab
-  artifactKey: Guid(ce7d653f60702e74abff268b3451c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition.prefab using Guid(ce7d653f60702e74abff268b3451c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56628d237d6333e6f6aa0e4c42fc14d') in 0.002002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 5.948838 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition.prefab
-  artifactKey: Guid(d01f4cb77a87edb4b93dad4ac5d3ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition.prefab using Guid(d01f4cb77a87edb4b93dad4ac5d3ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adf39d4665e3f8f9c194e8679377f12') in 0.002122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.042207 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab
-  artifactKey: Guid(6cd6ff5fd8abce747b8cd668b90fad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab using Guid(6cd6ff5fd8abce747b8cd668b90fad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63c5fd4ca2593375ee43021d00edd60') in 0.005379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.717254 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition.prefab
-  artifactKey: Guid(94224606e4667af4e884c199b277fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition.prefab using Guid(94224606e4667af4e884c199b277fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1855cd3807f07c9af41874a3dc65a0') in 0.007120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.277670 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(087d887d3b4237e4192a4f2c12075b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab using Guid(087d887d3b4237e4192a4f2c12075b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36a0398a6666229d244540a1611d975') in 0.005819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.316355 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion.prefab
-  artifactKey: Guid(5d3f786b44913ec4bbbd9953fef1ed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion.prefab using Guid(5d3f786b44913ec4bbbd9953fef1ed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf39fab38cf8bd7c202a04f23d8cec6') in 0.007647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.167739 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(505e51141f07efe408c3778115aa16be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab using Guid(505e51141f07efe408c3778115aa16be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ed12a38f09b1b4cd2164247076d355') in 0.006656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.856673 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab
-  artifactKey: Guid(4b1c9ae1d84ceb54fada047bb0cf1b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab using Guid(4b1c9ae1d84ceb54fada047bb0cf1b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6575ceeea31fee2ba000f671ae57a85b') in 0.007888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.814626 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard.prefab
-  artifactKey: Guid(52536ef13dead00479812b09249f6c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard.prefab using Guid(52536ef13dead00479812b09249f6c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ee7750f81084a16fcffecd8b740b89') in 0.002158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.267102 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard_Sml.prefab
-  artifactKey: Guid(4fc9f3854513df142b5c2cbda756ac3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard_Sml.prefab using Guid(4fc9f3854513df142b5c2cbda756ac3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774f96f3adde0c472c04c6dcfed35158') in 0.001463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 10.248764 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition 1.prefab
-  artifactKey: Guid(277f5f2d80ef0fe48ae1f251eeacc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition 1.prefab using Guid(277f5f2d80ef0fe48ae1f251eeacc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0d939106286da950a11f86c3f8cb84') in 0.006804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 6.441062 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition 1.prefab
-  artifactKey: Guid(60eefd3ffeded9440aaedd717dd80c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition 1.prefab using Guid(60eefd3ffeded9440aaedd717dd80c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1ed881896ee28b226b7bd81a99ec38') in 0.006305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.314520 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition 1.prefab
-  artifactKey: Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition 1.prefab using Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd960ecbedb29b68b3afc093ed2928c') in 0.007596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 4.269810 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion 1.prefab
-  artifactKey: Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion 1.prefab using Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbd0f46dd3fee2daaa04b63762910ae') in 0.006305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 6.489859 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion 1.prefab
-  artifactKey: Guid(d7e03238711e0534e8bca2b7e85fea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion 1.prefab using Guid(d7e03238711e0534e8bca2b7e85fea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6808394eba3caec8265d6dd1a32a819a') in 0.005693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 9.980010 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab using Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299f8c05244a6cb2f31e92b65253094a') in 0.007169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 4.213747 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion 1.prefab
-  artifactKey: Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion 1.prefab using Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f78a1ec7b6a96145cdc28ae7d2638e') in 0.006188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 5.465694 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion 1.prefab
-  artifactKey: Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion 1.prefab using Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a321b8fa9b7d3760beebd300b385f90') in 0.005575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 5.216822 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard_Sml 1.prefab
-  artifactKey: Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard_Sml 1.prefab using Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe652c110f7ad57413f5210cb46c89f') in 0.001548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.179973 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab using Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48678b42e48f71533e9a0e2698c8ccdb') in 0.005876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 13.486785 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab using Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2b3af2710c057048fa589961e2d80c') in 0.005586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.817806 seconds.
-  path: Assets/Prefabs/Walls/Wall_StandardWindow 1.prefab
-  artifactKey: Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_StandardWindow 1.prefab using Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548741d705e2b9f7e79d7abbbdc55e5d') in 0.006691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 109.671893 seconds.
-  path: Assets/Prefabs/Walls/Wall_StandardWindow.prefab
-  artifactKey: Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_StandardWindow.prefab using Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab316d1a0e7783d63f27da527ad1442a') in 0.005804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.441276 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard_Sml.prefab
-  artifactKey: Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard_Sml.prefab using Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96245dfb7649e98592182a7feca6911e') in 0.002169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.469578 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard.prefab
-  artifactKey: Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard.prefab using Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d29dec5c8e62f6daf16d6eb7bba5e8') in 0.007361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 86.827715 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_LR_Wall_HighDistorition.prefab
-  artifactKey: Guid(772453a06762c9d4c87c1ab9c5de941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_LR_Wall_HighDistorition.prefab using Guid(772453a06762c9d4c87c1ab9c5de941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bcb26481e5ce255b3333e0463c624a') in 0.006043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 6.620858 seconds.
-  path: Assets/Prefabs/Walls/InsideCorner_Standard 1.prefab
-  artifactKey: Guid(ed438cc9eea4f03429f32cb60b734798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/InsideCorner_Standard 1.prefab using Guid(ed438cc9eea4f03429f32cb60b734798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a591d40e381c8b2ed7300a2bff46bd') in 0.007150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.942443 seconds.
-  path: Assets/Prefabs/Walls/InsideCorner_Standard.prefab
-  artifactKey: Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/InsideCorner_Standard.prefab using Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceec9b85bbd6959efc71e35b33bb80e') in 0.005348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 29.881932 seconds.
-  path: Assets/Prefabs/Walls/OutsideCorner_Standard.prefab
-  artifactKey: Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/OutsideCorner_Standard.prefab using Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b53924ea92feab78bb044f2f31c15e') in 0.006558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7178cf89005e63d12f7b88b605457680') in 0.014156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 45.747374 seconds.
-  path: Assets/Prefabs/Walls/InsideCorner_Standard.prefab
-  artifactKey: Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/InsideCorner_Standard.prefab using Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bbd1902f4cbc6522b41d72ab62de8f') in 0.005675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 63.991877 seconds.
-  path: Assets/Prefabs/Walls/OutsideCorner_Standard.prefab
-  artifactKey: Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/OutsideCorner_Standard.prefab using Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c64267269ff5dbfb40c0ab42ecae09') in 0.005495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 10.804847 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
-  artifactKey: Guid(4bb00931d5b906a428d26371d997d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(4bb00931d5b906a428d26371d997d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5526c61c902f9be53b7ad741023feb23') in 0.006751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 8.356332 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab
-  artifactKey: Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L2_Wall_HighDistorition.prefab using Guid(0295d2b3f170ade41ae04acd7ca45e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066141f29743db262cd3adef932ab580') in 0.008670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.468145 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722139460d631151772c3c30d3924381') in 0.006542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.661163 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab
-  artifactKey: Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R1_Wall_HighDistorition.prefab using Guid(930495f3066c7d847ac9f1c2eaf8e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00da587b6f2fb99ea5675934e0fda1d7') in 0.006038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.100872 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab
-  artifactKey: Guid(89eae9e3e2d76e641affd116021b4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab using Guid(89eae9e3e2d76e641affd116021b4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5e3592b94c9eb2160532658c1b685f') in 0.006711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.281628 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab
-  artifactKey: Guid(89eae9e3e2d76e641affd116021b4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_R2_Wall_HighDistorition.prefab using Guid(89eae9e3e2d76e641affd116021b4455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdf97b0f3555d30471e5f7477c260b2') in 0.005696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.765701 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a52e9f7cf34fd1052944a7d7c78b7ea') in 0.004854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.234024 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
-  artifactKey: Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a448abb7a4c403e674a0d26475ee898') in 0.005837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.757495 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab
-  artifactKey: Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab using Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b2a35a2168e6ef0291f3cc1796816b') in 0.007001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.811050 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab
-  artifactKey: Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab using Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20989039e40200bf01d6bd81ea54a689') in 0.006253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 5.373542 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_LR_Wall_HighDistorition.prefab
-  artifactKey: Guid(772453a06762c9d4c87c1ab9c5de941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_LR_Wall_HighDistorition.prefab using Guid(772453a06762c9d4c87c1ab9c5de941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e83cf03cbcec19076cf48400eec275') in 0.009779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.615352 seconds.
-  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_RL_Wall_HighDistorition.prefab
-  artifactKey: Guid(cf1d3b762ab165d4788170ed63acdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_RL_Wall_HighDistorition.prefab using Guid(cf1d3b762ab165d4788170ed63acdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df22e306fb1d4ab4b32fe610621de2d') in 0.006827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 2.821045 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition.prefab
-  artifactKey: Guid(05e45b4aaf890194ba8136e9924630fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition.prefab using Guid(05e45b4aaf890194ba8136e9924630fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ffc8265c3c58431afeaa5d32ae2cab') in 0.005381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.329221 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition.prefab
-  artifactKey: Guid(05e45b4aaf890194ba8136e9924630fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition1_R1_Wall_MidDistorition.prefab using Guid(05e45b4aaf890194ba8136e9924630fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255faf22adc1f1a829240cd2fcd2eac6') in 0.005016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.878411 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition.prefab
-  artifactKey: Guid(277f5f2d80ef0fe48ae1f251eeacc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition.prefab using Guid(277f5f2d80ef0fe48ae1f251eeacc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf5a799a996b052adfd83afa46aeb4') in 0.006932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 4.333251 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition.prefab
-  artifactKey: Guid(277f5f2d80ef0fe48ae1f251eeacc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L1_Wall_MidDistorition.prefab using Guid(277f5f2d80ef0fe48ae1f251eeacc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ee4dc599aaa20353addb8efab7e851') in 0.006784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.548227 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab
-  artifactKey: Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab using Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18da58a89db5aefcd92dd948fa8bca8') in 0.006145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.006637 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab
-  artifactKey: Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab using Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc711281dfbb9f238b419289ba18696') in 0.006251 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.827993 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition.prefab
-  artifactKey: Guid(60eefd3ffeded9440aaedd717dd80c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition.prefab using Guid(60eefd3ffeded9440aaedd717dd80c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180c30750a45f5737073883bfa3d9dda') in 0.006760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 4.720501 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab using Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da2c2aa579253d5af93ac0de46e9609') in 0.007064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.435867 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab using Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a33a619570caa14a339bd7eed5ea353') in 0.006393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.925555 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d7e03238711e0534e8bca2b7e85fea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion.prefab using Guid(d7e03238711e0534e8bca2b7e85fea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a368b49b4c951611c6d23842aac2c6a') in 0.005716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.432158 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d7e03238711e0534e8bca2b7e85fea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L2_Wall_SlightDistortion.prefab using Guid(d7e03238711e0534e8bca2b7e85fea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3a7f7e955aa0ae972fe59e68e4b0d6') in 0.006116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.746860 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab using Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9462ee7ca5c15a2de81a04bc38409a') in 0.005498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.392194 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab
-  artifactKey: Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R1_Wall_SlightDistortion.prefab using Guid(e9814ff7da3da8a4fb13ae5982d44bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8444340525b2f74e9ae201e01c07a977') in 0.005385 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.986962 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab using Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faacafb1ddc8eeedf8730d7467f9e39') in 0.004588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.869377 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab
-  artifactKey: Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_R2_Wall_SlightDistortion.prefab using Guid(d512f19112a367649a277515ede9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f346b03a4b4d93d28cb1af93bd11ad5') in 0.005900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.959907 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard.prefab
-  artifactKey: Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard.prefab using Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d61ccb6eb9918e28fa79fd97006787') in 0.006819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.497379 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard.prefab
-  artifactKey: Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard.prefab using Guid(b6a5fc37ec33d014489a96e71e014df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfa010746a1fd6ee238733352ee62ac') in 0.006389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 6.155343 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard_Sml.prefab
-  artifactKey: Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard_Sml.prefab using Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a4f22093a9e1178c6a22c063c96614') in 0.001621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.122443 seconds.
-  path: Assets/Prefabs/Walls/Wall_StandardWindow.prefab
-  artifactKey: Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_StandardWindow.prefab using Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da4c9ee9f58adce3fa86c147665ebf8') in 0.006069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 4.044129 seconds.
-  path: Assets/Prefabs/Walls/Wall_StandardWindow.prefab
-  artifactKey: Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_StandardWindow.prefab using Guid(c3afd3add2adf8a4b95c9b13385a4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf808b6e87632eeb03bb186198f8e97') in 0.006652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 20.573321 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard_Sml.prefab
-  artifactKey: Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard_Sml.prefab using Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14018acd22852eae91d64799223813b2') in 0.010496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 6.102546 seconds.
-  path: Assets/Prefabs/Walls/Wall_Standard_Sml.prefab
-  artifactKey: Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_Standard_Sml.prefab using Guid(31e4d1410c8174c459940455bc48782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f51606842160316e018441316af73ca') in 0.005550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 11.387977 seconds.
-  path: Assets/Scenes/Whitebox 20230318.unity
-  artifactKey: Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Whitebox 20230318.unity using Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3091dc11c38378c5d15cfead1907ec') in 0.000502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1706.966639 seconds.
-  path: Assets/Scenes/Asset Scene.unity
-  artifactKey: Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Asset Scene.unity using Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eb0874377e6d2f86177b5625db35bd') in 0.000824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.408 seconds
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.838 seconds
-Domain Reload Profiling: 1243ms
-	BeginReloadAssembly (144ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (194ms)
-		LoadAssemblies (263ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (838ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (371ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (274ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3654.
-Memory consumption went from 138.9 MB to 138.9 MB.
-Total: 2.800200 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.179100 ms MarkObjects: 2.331900 ms  DeleteObjects: 0.058400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 759.410099 seconds.
-  path: Assets/Prefabs/Walls/Wall_MidDistortion_SmlStraight_Wall_MidDistorition.prefab
-  artifactKey: Guid(f2d28becc0240e9409b992649bde8bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MidDistortion_SmlStraight_Wall_MidDistorition.prefab using Guid(f2d28becc0240e9409b992649bde8bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369edcb7450a23cfb3c1023a804d70fd') in 0.073862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 4.736555 seconds.
-  path: Assets/Prefabs/Walls/Wall_MIdDistortion_SmlWave_Wall_MidDistorition.prefab
-  artifactKey: Guid(cb12a27d3f62daa41810f055ec381412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_MIdDistortion_SmlWave_Wall_MidDistorition.prefab using Guid(cb12a27d3f62daa41810f055ec381412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c430302b3dde2b7c61bfd2eb3a2d97e') in 0.005778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 38.600089 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion.prefab
-  artifactKey: Guid(8e2ab4874a5a82a42b4c9b143f9c5eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion.prefab using Guid(8e2ab4874a5a82a42b4c9b143f9c5eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2c80ee2dc8f21eda272892dfda1c91') in 0.007140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 2.133068 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion 1.prefab
-  artifactKey: Guid(ae7a2d041320d9548baedda9b273f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion 1.prefab using Guid(ae7a2d041320d9548baedda9b273f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b61e32a3551e47451e4433525fc570') in 0.007726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 43.963797 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion 1.prefab
-  artifactKey: Guid(ae7a2d041320d9548baedda9b273f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion 1.prefab using Guid(ae7a2d041320d9548baedda9b273f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391f2f66c6c1b9ad34ad3fa5fa5b11a6') in 0.005679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 83.598612 seconds.
-  path: Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion 1.prefab
-  artifactKey: Guid(ae7a2d041320d9548baedda9b273f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_SmlWave_Wall_SlightDistortion 1.prefab using Guid(ae7a2d041320d9548baedda9b273f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c16c463737761a7aee64c17c44c8c7') in 0.005875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 18.217769 seconds.
-  path: Assets/Scenes/Whitebox 20230318.unity
-  artifactKey: Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Whitebox 20230318.unity using Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5179c5b5c74ef58168f877ac9155d67') in 0.000766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.401 seconds
-Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.821 seconds
-Domain Reload Profiling: 1219ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (258ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (822ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (371ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (270ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3657.
-Memory consumption went from 140.8 MB to 140.8 MB.
-Total: 2.580800 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.171400 ms MarkObjects: 2.148400 ms  DeleteObjects: 0.038300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.398 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.831 seconds
-Domain Reload Profiling: 1226ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (255ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (831ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (370ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3660.
-Memory consumption went from 143.0 MB to 143.0 MB.
-Total: 2.472800 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.221900 ms MarkObjects: 1.975400 ms  DeleteObjects: 0.040400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.391 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.817 seconds
-Domain Reload Profiling: 1205ms
-	BeginReloadAssembly (140ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (245ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (818ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (370ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (25ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3663.
-Memory consumption went from 145.0 MB to 144.9 MB.
-Total: 2.456800 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.239200 ms MarkObjects: 1.921900 ms  DeleteObjects: 0.041300 ms)
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3606.
+Memory consumption went from 132.9 MB to 132.9 MB.
+Total: 3.084200 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.260400 ms MarkObjects: 2.443500 ms  DeleteObjects: 0.115000 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1790,3 +178,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 394816.438288 seconds.
+  path: Assets/Prefabs/Walls
+  artifactKey: Guid(c0261c98dc343534798c88031a885752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls using Guid(c0261c98dc343534798c88031a885752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3627f91dda64e08aaf1333e782cf0ba') in 0.003396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.735132 seconds.
+  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
+  artifactKey: Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900916948de4e21ceeb12c77d77e3f38') in 0.102004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 174.974276 seconds.
+  path: Assets/Scenes/Whitebox 20230311.unity
+  artifactKey: Guid(31795f305e45bba44b08889b98bfd971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Whitebox 20230311.unity using Guid(31795f305e45bba44b08889b98bfd971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179366c6d97fe97400f0cfa4b2f582d8') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.343517 seconds.
+  path: Assets/Scenes/Asset Scene.unity
+  artifactKey: Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Asset Scene.unity using Guid(b3764019707c9f946bcf037a3516ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80342c5a10cb262326e4cfae0cf0edee') in 0.000672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 74.972816 seconds.
+  path: Assets/Prefabs/Walls/OutsideCorner_Standard.prefab
+  artifactKey: Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/OutsideCorner_Standard.prefab using Guid(a44e65d66b3440f4c9aec0fe4ba755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f181cdcaabe80038cc7ed8d621e02fbd') in 0.029033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 16.545232 seconds.
+  path: Assets/Prefabs/Walls/InsideCorner_Standard.prefab
+  artifactKey: Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/InsideCorner_Standard.prefab using Guid(19a5595d4081c7c47b3610e91f77fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c691dbc3adbdb482b7cbac208656c666') in 0.012801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.739565 seconds.
+  path: Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab
+  artifactKey: Guid(4bb00931d5b906a428d26371d997d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_HighDistorition_L1_Wall_HighDistorition.prefab using Guid(4bb00931d5b906a428d26371d997d62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d907c0921edfd4476895dbe80609a5') in 0.008925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 30.964823 seconds.
+  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab
+  artifactKey: Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_L_Wall_HighDistorition.prefab using Guid(50fe40bfd10b53f4bb53ea9fab444aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a68f87c5c988a7ee36c56b5acbc545e') in 0.028872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.603797 seconds.
+  path: Assets/Scenes/Whitebox 20230318.unity
+  artifactKey: Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Whitebox 20230318.unity using Guid(261ff08111641134b82f51d2662f0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a565c8061626ed74f4368c2ebb30099') in 0.000807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.502683 seconds.
+  path: Assets/Prefabs/Walls/Wall_MidDistortion_SmlStraight_Wall_MidDistorition.prefab
+  artifactKey: Guid(f2d28becc0240e9409b992649bde8bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_MidDistortion_SmlStraight_Wall_MidDistorition.prefab using Guid(f2d28becc0240e9409b992649bde8bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b028d872f90c3c5044cfed520a02306c') in 0.013781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 68.621287 seconds.
+  path: Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition.prefab
+  artifactKey: Guid(60eefd3ffeded9440aaedd717dd80c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_MidDistorition_R2_Wall_MidDistorition.prefab using Guid(60eefd3ffeded9440aaedd717dd80c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8783ccfb00a82d8aa67e3eff63142') in 0.016619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.512492 seconds.
+  path: Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab
+  artifactKey: Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_MidDistorition_L2_Wall_MidDistorition.prefab using Guid(105ba8bc57fd74c47b2b323ec9467a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1801bee85dfc62b521183be25b2728c7') in 0.012544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 12.204153 seconds.
+  path: Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab
+  artifactKey: Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_SlightDistortion_L1_Wall_SlightDistortion.prefab using Guid(d40e0e849fd34e6498ce28cc958aa180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd9ec49474fad468ec5f72c15a589f2') in 0.015481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.442894 seconds.
+  path: Assets/Prefabs/Walls/Wall_MIdDistortion_SmlWave_Wall_MidDistorition.prefab
+  artifactKey: Guid(cb12a27d3f62daa41810f055ec381412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_MIdDistortion_SmlWave_Wall_MidDistorition.prefab using Guid(cb12a27d3f62daa41810f055ec381412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705bdc8d35df32a7583f6835dc1d7dc8') in 0.014043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 177.245380 seconds.
+  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_RL_Wall_HighDistorition.prefab
+  artifactKey: Guid(cf1d3b762ab165d4788170ed63acdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_RL_Wall_HighDistorition.prefab using Guid(cf1d3b762ab165d4788170ed63acdfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a448c58f859b6ceb920a84df129417') in 0.015758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.710221 seconds.
+  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_LR_Wall_HighDistorition.prefab
+  artifactKey: Guid(772453a06762c9d4c87c1ab9c5de941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlWave_LR_Wall_HighDistorition.prefab using Guid(772453a06762c9d4c87c1ab9c5de941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dada0f4f5d331a40b1370988c8bd87') in 0.014152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.531476 seconds.
+  path: Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab
+  artifactKey: Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Walls/Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition.prefab using Guid(cd8aad8cc422ec34aa20f18bf16a6b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5501cfb443ec1e2a5023c03571796c7b') in 0.013355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
