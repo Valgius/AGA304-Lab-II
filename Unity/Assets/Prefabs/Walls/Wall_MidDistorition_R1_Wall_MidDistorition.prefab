@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7287827001129652246}
   - component: {fileID: 352029646845469128}
   m_Layer: 0
-  m_Name: Wall_MidDistorition1_R1_Wall_MidDistorition
+  m_Name: Wall_MidDistorition_R1_Wall_MidDistorition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5498463350620808136}
-  m_Mesh: {fileID: 6570620055042712038, guid: 8bc507a1840af58419dbe8e918e54b2a, type: 3}
+  m_Mesh: {fileID: 7827116723959739505, guid: 8bc507a1840af58419dbe8e918e54b2a, type: 3}
 --- !u!23 &7287827001129652246
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -105,4 +105,4 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 6570620055042712038, guid: 8bc507a1840af58419dbe8e918e54b2a, type: 3}
+  m_Mesh: {fileID: 7827116723959739505, guid: 8bc507a1840af58419dbe8e918e54b2a, type: 3}
