@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8242705755409482073}
   - component: {fileID: 2507434743395681952}
   - component: {fileID: 6076872043048266743}
+  - component: {fileID: -7946491987080149629}
   m_Layer: 0
   m_Name: Wall_MIdDistortion_SmlWave_Wall_MidDistorition
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 65adaf81fd8e07146b9db522953621fd, type: 2}
+  - {fileID: 2100000, guid: b3beb2da2e5a20445949882ac8cb4fb6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +84,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-7946491987080149629
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2873227590735854993}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5668743099317381106, guid: 1ff8e6526bb78f545bbf106e37ee4984, type: 3}

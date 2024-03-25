@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8623837629290175911}
   - component: {fileID: 3773608235795985878}
   - component: {fileID: 8612903915753460936}
+  - component: {fileID: 3559885425162181438}
   m_Layer: 0
   m_Name: Wall_SlightDistortion_SmlWave_Wall_SlightDistortion
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 65adaf81fd8e07146b9db522953621fd, type: 2}
+  - {fileID: 2100000, guid: b3beb2da2e5a20445949882ac8cb4fb6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +84,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3559885425162181438
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773953799898768961}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7107982705804717704, guid: a46ad8a3c375eb64a988a512f0ede340, type: 3}
