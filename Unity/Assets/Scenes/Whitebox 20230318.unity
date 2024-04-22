@@ -2911,6 +2911,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1068531477}
     m_Modifications:
+    - target: {fileID: 270127468018463647, guid: 31e4d1410c8174c459940455bc48782b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9343e2bc57f6e2647970495d7e040e20, type: 2}
     - target: {fileID: 2148950177357539191, guid: 31e4d1410c8174c459940455bc48782b, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5
@@ -4927,6 +4931,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2287130026002161386, guid: e9beb09ba7d65564c85416f900af80ab, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c1c7b065aa611854385f7e69e9ec5b70, type: 2}
     - target: {fileID: 7533991475086718661, guid: e9beb09ba7d65564c85416f900af80ab, type: 3}
       propertyPath: m_Name
       value: Roof_MidDistortion_Roof
@@ -5070,7 +5078,7 @@ PrefabInstance:
     - target: {fileID: 2929547361900704980, guid: cd8aad8cc422ec34aa20f18bf16a6b96, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7d4bbd65abdcee94f9f2c779bba6d683, type: 2}
+      objectReference: {fileID: 2100000, guid: 198f2fa23b86cc84787a394ed8e04db4, type: 2}
     - target: {fileID: 7768738264460174837, guid: cd8aad8cc422ec34aa20f18bf16a6b96, type: 3}
       propertyPath: m_Name
       value: Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition (5)
@@ -10008,6 +10016,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1068531477}
     m_Modifications:
+    - target: {fileID: 4428474389499798669, guid: 19a5595d4081c7c47b3610e91f77fa56, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9343e2bc57f6e2647970495d7e040e20, type: 2}
     - target: {fileID: 5313321999384396944, guid: 19a5595d4081c7c47b3610e91f77fa56, type: 3}
       propertyPath: m_Name
       value: InsideCorner_Standard (10)
@@ -16358,6 +16370,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1068531477}
     m_Modifications:
+    - target: {fileID: 2929547361900704980, guid: cd8aad8cc422ec34aa20f18bf16a6b96, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 198f2fa23b86cc84787a394ed8e04db4, type: 2}
     - target: {fileID: 7768738264460174837, guid: cd8aad8cc422ec34aa20f18bf16a6b96, type: 3}
       propertyPath: m_Name
       value: Wall_HighDistorition_SmlStraight_R_Wall_HighDistorition (9)
@@ -22728,7 +22744,7 @@ PrefabInstance:
     - target: {fileID: 4428474389499798669, guid: 19a5595d4081c7c47b3610e91f77fa56, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c60ae286d3c138c4abe06dc9f252383a, type: 2}
+      objectReference: {fileID: 2100000, guid: 9343e2bc57f6e2647970495d7e040e20, type: 2}
     - target: {fileID: 5313321999384396944, guid: 19a5595d4081c7c47b3610e91f77fa56, type: 3}
       propertyPath: m_Name
       value: InsideCorner_Standard (7)
