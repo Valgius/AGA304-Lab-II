@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8228261067443168094}
-  m_Mesh: {fileID: 961273495235745929, guid: f4734f02fac24c7468a6e4f1745085b5, type: 3}
+  m_Mesh: {fileID: 7460037263902726407, guid: f4734f02fac24c7468a6e4f1745085b5, type: 3}
 --- !u!23 &6168662077616646563
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8228261067443168094}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -105,4 +105,4 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 961273495235745929, guid: f4734f02fac24c7468a6e4f1745085b5, type: 3}
+  m_Mesh: {fileID: 7460037263902726407, guid: f4734f02fac24c7468a6e4f1745085b5, type: 3}
