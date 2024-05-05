@@ -359,6 +359,7 @@
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Scripts/AudioController.cs"
 "Assets/Scripts/AudioSnapshotVolume.cs"
+"Assets/Scripts/MonsterTrigger.cs"
 -langversion:9.0
 
 /deterministic
