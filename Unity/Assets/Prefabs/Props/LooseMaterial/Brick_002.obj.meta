@@ -3,7 +3,17 @@ guid: 65b637f3ba8e7254582135df3e34a48b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick_002_LooseMaterialsMat
+    second: {fileID: 2100000, guid: 583559414a24beb4b8a35dbf1b4c8713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1SG
+    second: {fileID: 2100000, guid: 583559414a24beb4b8a35dbf1b4c8713, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

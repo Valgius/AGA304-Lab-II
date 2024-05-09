@@ -3,7 +3,17 @@ guid: b989fcac5f3db2b468e789d240a750b5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CandleBurnt_002_CandlesMat
+    second: {fileID: 2100000, guid: dd7ef0ae58608a04b85aea344f82251d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1SG
+    second: {fileID: 2100000, guid: dd7ef0ae58608a04b85aea344f82251d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

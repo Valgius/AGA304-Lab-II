@@ -3,7 +3,17 @@ guid: 7ab4a4b23d6bd894d94f8872f856166b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mushroom_002_MushroomsMat
+    second: {fileID: 2100000, guid: 745bcdb8b8d917443a479e327c9542e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1SG
+    second: {fileID: 2100000, guid: 745bcdb8b8d917443a479e327c9542e6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
