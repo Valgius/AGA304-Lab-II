@@ -7,6 +7,7 @@ public class MonsterTrigger : MonoBehaviour
 
     public GameObject monster;
     public GameObject monsterSpawnPoint;
+    public UIManager ui;
 
     protected Transform spawn;
     //
@@ -19,6 +20,8 @@ public class MonsterTrigger : MonoBehaviour
     {
         print("working");
         SpawnMonster();
+        ui.BeginCountDown();
+       
     }
 
     public void SpawnMonster()
