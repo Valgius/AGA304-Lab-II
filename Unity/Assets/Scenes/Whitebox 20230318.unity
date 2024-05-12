@@ -2193,7 +2193,7 @@ Transform:
   m_GameObject: {fileID: 58637292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.2, y: -77.01, z: 1863.5}
+  m_LocalPosition: {x: -65.2, y: -77.01, z: 1863.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18865,7 +18865,7 @@ GameObject:
   - component: {fileID: 659966454}
   - component: {fileID: 659966453}
   m_Layer: 5
-  m_Name: Composer
+  m_Name: Creayed by
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18887,7 +18887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118, y: -57}
+  m_AnchoredPosition: {x: -92, y: -27.8}
   m_SizeDelta: {x: 226.4, y: 55.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &659966453
@@ -18910,7 +18910,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Composer - Baxter Dick Evans
+  m_text: 'Environment Created By:
+
+    Charlie Looyen
+
+    Jackson Skinner
+
+    Tiger
+    Vongsinnasone
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18937,8 +18946,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27
-  m_fontSizeBase: 27
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -55123,7 +55132,7 @@ GameObject:
   - component: {fileID: 2088058427}
   - component: {fileID: 2088058426}
   m_Layer: 5
-  m_Name: VA
+  m_Name: VA/Composer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55145,7 +55154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: -70}
+  m_AnchoredPosition: {x: 193.2, y: -41.5}
   m_SizeDelta: {x: 260.2, y: 83.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2088058426
@@ -55168,7 +55177,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Recorder Voice - Marley Dunn
+  m_text: 'Composer
+
+    Baxter Dick Evans
+
+
+    Voice
+
+    Marley Dunn'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -55195,8 +55211,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27
-  m_fontSizeBase: 27
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
